@@ -21,22 +21,62 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+*{
+     /* border: 1px solid red; */
+    
+
 
 }
+body{
+     background-image: url("/wheel-of-time-client/css/wot-wallpaper.jpg");
+   }
+h1{
+     text-align: center;
+     width: 60%;
+     padding-bottom: 0;
+     margin: 0 auto;
+}
 
+h2{
+     padding: 0 auto;
+     margin: 1rem auto 0 auto;
+     width: 50%;
+     text-align: center;
+     
+}
+
+p{
+     width: 65%;
+     text-align: center;
+     font-weight: 300;
+     margin: 1rem auto 0 auto;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+
+.divInput{
+     margin: 1rem auto 0 auto;
+     text-align: center;
 }
 
-footer {
-
+ button{
+     display: block;
+     margin: 0 auto;
 }
 
+img{
+     width: 300px;
+     display: block;
+     margin: 0 auto;
+}
+
+.border{
+     border: 3px solid black;
+
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
