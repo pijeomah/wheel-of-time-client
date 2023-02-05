@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', apiRequest)
 async function apiRequest(){
     const charName = document.querySelector('input').value
     try {
-        const response = await fetch(`https://nice-tan-crayfish-veil.cyclic.app/api/${charName}`)
+        const response = await fetch(`https://wheel-of-time-api-production.up.railway.app/api/${charName}`)
         const data = await response.json()
         console.log(data)
 
